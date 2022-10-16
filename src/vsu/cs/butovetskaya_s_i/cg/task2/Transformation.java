@@ -1,7 +1,5 @@
 package vsu.cs.butovetskaya_s_i.cg.task2;
 
-import java.util.List;
-
 public class Transformation {
 
     Shape shape;
@@ -54,7 +52,7 @@ public class Transformation {
         shape.setPeaks(point);
     }
 
-    public void scalingMatrix(double a, double b) {
+    public void scalingShape(double a, double b) {
         multiplyMatrix1(new double[][]{
                 {a, 0, 0},
                 {0, b, 0},
@@ -62,7 +60,7 @@ public class Transformation {
         });
     }
 
-    public void movingMatrix(double a, double b) {
+    public void movingShape(double a, double b) {
         multiplyMatrix(new double[][]{
                 {1, 0, 0},
                 {0, 1, 0},
@@ -70,7 +68,7 @@ public class Transformation {
         });
     }
 
-    public void rotateLeftMatrix(double alpha){
+    public void rotateShape(double alpha){
         alpha = -(alpha * Math.PI / 180);
         multiplyMatrix1(new double[][] {
                 {Math.cos(alpha), Math.sin(alpha), 0},

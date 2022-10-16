@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fac76be-7024-404f-85c7-75e1228c39fc" name="Changes" comment="&lt;&lt;&gt;&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/DrawForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/DrawForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/DrawForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/DrawForm.java" afterDir="false" />
-    </list>
+    <list default="true" id="2fac76be-7024-404f-85c7-75e1228c39fc" name="Changes" comment="&lt;&lt;Некоторые дополнения&gt;&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +70,7 @@
       <workItem from="1665771408079" duration="4150000" />
       <workItem from="1665904717896" duration="7309000" />
       <workItem from="1665914465891" duration="671000" />
-      <workItem from="1665944861869" duration="2729000" />
+      <workItem from="1665944861869" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;&lt;&gt;&gt;">
       <created>1665914524984</created>
@@ -83,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665914524984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&lt;&lt;Некоторые дополнения&gt;&gt;">
+      <created>1665947865510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665947865510</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;&lt;&gt;&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;&lt;&gt;&gt;" />
+    <MESSAGE value="&lt;&lt;Некоторые дополнения&gt;&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;&lt;Некоторые дополнения&gt;&gt;" />
   </component>
 </project>

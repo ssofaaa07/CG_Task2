@@ -101,7 +101,7 @@ public class DrawForm extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 Transformation trans = new Transformation(shape);
                 stackTransformations.push(trans.getShape());
-                trans.movingMatrix(Double.parseDouble(spinnerMovX.getValue().toString()),
+                trans.movingShape(Double.parseDouble(spinnerMovX.getValue().toString()),
                         - Double.parseDouble(spinnerMovY.getValue().toString()));
                 shape = trans.getShape();
                 drawPanel.setShape(shape);
@@ -114,7 +114,7 @@ public class DrawForm extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 Transformation trans = new Transformation(shape);
                 stackTransformations.push(trans.getShape());
-                trans.scalingMatrix(Double.parseDouble(textFieldCompX.getText()),
+                trans.scalingShape(Double.parseDouble(textFieldCompX.getText()),
                         Double.parseDouble(textFieldCompY.getText()));
                 drawPanel.setShape(trans.getShape());
                 drawPanel.repaint();
@@ -127,7 +127,7 @@ public class DrawForm extends JFrame {
                 Transformation trans = new Transformation(shape);
                 stackTransformations.push(trans.getShape());
                 double scaling = (double) sliderScaling.getValue() / 10;
-                trans.scalingMatrix(scaling, scaling);
+                trans.scalingShape(scaling, scaling);
                 drawPanel.setShape(trans.getShape());
                 drawPanel.repaint();
             }
@@ -145,7 +145,7 @@ public class DrawForm extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 Transformation trans = new Transformation(shape);
                 stackTransformations.push(trans.getShape());
-                trans.rotateLeftMatrix(Double.parseDouble(spinnerRotate.getValue().toString()));
+                trans.rotateShape(Double.parseDouble(spinnerRotate.getValue().toString()));
                 drawPanel.setShape(trans.getShape());
                 drawPanel.repaint();
             }
@@ -164,13 +164,13 @@ public class DrawForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Transformation trans = new Transformation(shape);
-                trans.movingMatrix(Double.parseDouble(spinnerMovX.getValue().toString()),
+                trans.movingShape(Double.parseDouble(spinnerMovX.getValue().toString()),
                         - Double.parseDouble(spinnerMovY.getValue().toString()));
-                trans.scalingMatrix(Double.parseDouble(textFieldCompX.getText()),
+                trans.scalingShape(Double.parseDouble(textFieldCompX.getText()),
                         Double.parseDouble(textFieldCompX.getText()));
                 double scaling = (double) sliderScaling.getValue() / 10;
-                trans.scalingMatrix(scaling, scaling);
-                trans.rotateLeftMatrix(Double.parseDouble(spinnerRotate.getValue().toString()));
+                trans.scalingShape(scaling, scaling);
+                trans.rotateShape(Double.parseDouble(spinnerRotate.getValue().toString()));
                 drawPanel.setShape(trans.getShape());
                 drawPanel.repaint();
             }
