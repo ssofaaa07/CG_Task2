@@ -8,11 +8,6 @@ public class Shape {
         this.peaks = peaks;
     }
 
-//    public Shape() {
-//        this.peaks = new Point[]{new Point(300,400), new Point(300,300),
-//                new Point(400, 300), new Point(400, 400)};
-//    }
-
     public void setPeaks(Point[] vertex) {
         this.peaks = vertex;
     }

@@ -6,7 +6,6 @@ import java.io.IOException;
 
 public class DrawPanel extends JPanel {
 
-//    Axes axes;
     int width;
     int height;
 
