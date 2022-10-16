@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fac76be-7024-404f-85c7-75e1228c39fc" name="Changes" comment="" />
+    <list default="true" id="2fac76be-7024-404f-85c7-75e1228c39fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/Axes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/DrawForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/DrawForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/DrawPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/Transformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2G2GuiDXdtr6c9ic0meIhwC4rBW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,13 +38,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;32&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE&quot;: &quot;ToolWindow&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;320&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/vsu/cs/butovetskaya_s_i/cg/task2" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="vsu.cs.butovetskaya_s_i.cg.task2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="vsu.cs.butovetskaya_s_i.cg.task2.Main" />
+      <module name="Task2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +74,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665579491039</updated>
+      <workItem from="1665579492895" duration="7705000" />
+      <workItem from="1665592561389" duration="3899000" />
+      <workItem from="1665669799585" duration="776000" />
+      <workItem from="1665746984219" duration="1478000" />
+      <workItem from="1665748767337" duration="11284000" />
+      <workItem from="1665771408079" duration="4150000" />
+      <workItem from="1665904717896" duration="7309000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

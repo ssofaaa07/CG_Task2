@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+!src/vsu/cs/butovetskaya_s_i/cg/task2/main/**/out/
+!src/vsu/cs/butovetskaya_s_i/cg/task2/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +12,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!src/vsu/cs/butovetskaya_s_i/cg/task2/main/**/bin/
+!src/vsu/cs/butovetskaya_s_i/cg/task2/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
